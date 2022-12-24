@@ -1,0 +1,22 @@
+How to use the guide, meaning of formatting - how to navigate the document
+Draw the reader to want to read more
+Shift autocomplete earlier - highlight, be user-centric, when do I use the feature.
+Grammar:
+	from here -> here
+Tell them about the empty GUI
+Command format legend -> UPPER_CASE no link with multiple times
+
+help -> phrasing -> too many things going oh here.
+highlight the drop down menu (tips/special)
+
+add -> place in a table format
+highlight which part comes out different
+
+list -> put after suggest -> relist?
+
+edit -> may add more use cases 
+Before and after editing looks the same -> maybe a arrow? 
+
+keything-> flow of the features, logical consideration, consideration of the user (use tips/icons) when do I use the commands.
+Texture cues, how do they align together.
+Formatting -> explain how is it used in the guide -> eg. Blue box, Gray box, Bold.

@@ -1,0 +1,26 @@
+Demo:
+solve their problem, appeal to their needs
+NO CONFIG Screens - i.e. typing something then go next (less technical)
+show results - eg. map of data
+involve the designer from the start (showcase design)
+sense of drama
+demo is a sales pitch????
+
+cs2103 - for supervisors (in the office) - professors who are marking you - show all the features - package it in a way to show the value. 
+
+help them understand what you are doing
+
+2 ways to talk to non-tech audiences: 
+1. Analogies (small ideas)
+2. Stories - at the start to create interest, user story at the end to visualise how it works
+	     - structure an entire presentation (narrative)
+	     - narrative/lifestyle
+	     - big ideas
+
+hero's journey - overcome adversity and become something (benefits of taking risk)
+false start - disrupt your audience expectation 
+the mountain
+sparklines - Compare hope & reality - show the other party what can be - creates hope and excitement
+converging ideas - converge different big idea and converge together.
+petal - several stories to tell, come back to a central theme.
+

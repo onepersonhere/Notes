@@ -1,0 +1,50 @@
+General Bugs
+1. resizing
+2. load a save file
+3. UG doesn't match functionality
+4. Exit doesn't exit everything
+5. loading a replacement file
+6. Quick Start not updated
+7. Did not reset file?
+
+Functionality Bugs
+1. extreme user behaviors (e.g. integer overflow) should not crash the app, corrupt the data, or make it unusable
+2. very long input values causes UI layout messed up, some part of it might get cut off. (hinder the user)
+3. Use of symbols in input values (e.g. disallowing s/o in a person name because / is used as a command delimiter can cause a major problem if the input is expected to match the legal name of the person.)
+4. Mismatch between the UG and the feature: if a feature behavior needs to be changed, it is either a type.FunctionalityBug or type.FeatureFlaw
+5. Handling manual edits to the data file: AB3 UG specifies the current level of support for manually editing the data file. At least that level of support should be supported in the new product as well.
+
+Feature Flaws
+1. Missing features and problems in how a feature is designed are considered feature flaws
+2. If fixing the feature flaw is essential for the app to be reasonably useful
+3. If the feature is implemented to work in a certain way but it could have been implemented to work in a better way (from the end-user's point of view) without much additional effort
+4. Bugs related to duplicate detection: detecting only the exact string/value matches is not enough. "limitations are made clear"
+5. Overzealous input validation: 1234 5678 (HP) 1111-3333 (Office) -- blocking that input might not add any value but allowing it does.
+6. Lack of proper handling (either blocking or warning) for potentially invalid inputs can be considered a type.FeatureFlaw bug too.
+7. Not detecting easy-to-detect incorrect flags (e.g., user entered /t but it should be /tag) is a FeatureFlaw too.
+8. Specificity of error message: Error messages can be correct but not specific enough (e.g. format error for 2021-13-28 vs 2021-02-30 (invalid))
+9. Unnecessarily complicated (or hard-to-type) command formats: input formats should be optimized to get things done fast. (e.g. very long keywords, keywords case-sensitive, using hard to type special characters in the format)
+10. Case sensitivity: follow the case sensitivity of the real world entity it represents e.g., as person names are not case sensitive in the real world, they shouldn't be case sensitive in the app either. The same applies for search key words. 
+
+Documentation Bugs
+General:
+1. Broken links: Severity can be Low or Medium
+2. Diagram being split between pages
+3. Too much/little padding, font size, alignment, inconsistencies, etc. can 'hinder' the reader in the sense they can slow down the reader (severity.VeryLow)
+4. UML notation variations
+5. Details missing from a diagram: can affects consistency which affects readability (e.g., it can be considered a minor bug if a sequence diagram omits an activation bars in some places but not in other places and yet the omission doesn't make the diagram any easier to read.)
+6. Minor typos and grammar errors: severity.VeryLow
+7. Missing requirements (e.g., missing user stories)
+8. Unfulfilled NFRs: not met by the product, it can be a severity.Low; DocumentationBug if the the NFR was unreasonable in the first place. Otherwise, it can be type.FeatureFlaw bug.
+9. Details in the diagram too small: too much info in the diagram. sequence diagrams showing low-level details of multiple components (severity.VeryLow)
+
+DG:
+1. Glossary - some terms not clarified, some terms are unnecessary
+2. "The layout of these UI parts are"
+3. Check if the numbering for Use case is correct
+4. Seq Diagrams 
+(arrows pointing back, dotted line after X) 
+(no return arrows/not consistent) 
+(missing boxes)
+5. Missing Use Case
+6. Typos

@@ -1,0 +1,7 @@
+Fatal error after editing data/addressbook.json file with malformed json.
+The error reporting screen is too small, very hard to see the words as I need to scroll down.
+Clear command is invalid even though it is listing in the UG.
+Cannot import the same exported .csv file in the same session.
+Total number of client still remains the same even after delete all.
+Fatal error after delete all contacts and relaunching the app.
+Duplicate parameter is not handled. Only the last of the duplicated parameter is handled.
